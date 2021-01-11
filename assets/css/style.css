@@ -166,17 +166,17 @@ body{
 
 /* font awesome style elements */
 
-.down::before{
-  font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f078";
-}
+/* .down::before{
+  
+} */
 
-.glob::before{
+/* .glob::before{
   font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f0ac";
-}
+} */
 
-.right::before{
-  font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f054";
-}
+/* .right::before{
+  
+} */
 
 .facebook::before{
   font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f39e";
@@ -235,11 +235,37 @@ header .wrapper{
   margin-right: 20px;
 }
 
-.white_down{
+.menu nav ul li:nth-child(3)::after{
+  font-family: "Font Awesome 5 Free"; 
+  font-weight: 900; 
+  content: "\f078";
+  color: #fff;
+  margin-left: 5px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+nav ul li:nth-child(3) ul{
+  flex-direction: column;
+  position: absolute;
+  width: 200px;
+  display: none;
+}
+
+nav ul li:nth-child(3) ul li{
+  margin-top: 5px;
+}
+
+nav ul li:nth-child(3):hover ul{
+  transition: .5s;
+  display: block;
+}
+
+/* .white_down{
   font-size: 13px; 
   margin-left: 5px; 
   color: #fff;
-}
+} */
 
 .menu nav li a,.sign_up a{
   text-decoration: none;
@@ -252,30 +278,41 @@ header .wrapper{
   transition: .5s;
 }
 
-.white_earth{
+/* .white_earth{
   font-size: 20px;
   color: #fff;
-}
-
+} */
+/* 
 .white_earth:hover{
   color: #333;
   transition: .5s;
-}
+} */
 
-.sign_up a:nth-child(2){
+.sign_up a{
   text-decoration: none;
   color: #333;
   text-transform: capitalize;
   background-color: #fff;
   border-radius: 20px;
   padding: 10px 25px;
+  padding-left: 12px;
   margin-left: 20px;
 }
 
-.sign_up a:nth-child(2):hover{
+.sign_up a:hover{
   background-color: #333;
   color: #ffcf3f;
   transition: .5s;
+}
+
+.sign_up a::before{
+  font-family: "Font Awesome 5 Free"; 
+  font-weight: 900; 
+  content: "\f0ac";
+  position: relative;
+  right: 40px;
+  color: #fff;
+  font-size: 20px;
 }
 
 header h2{
@@ -360,10 +397,18 @@ header h2 span{
   transition: .5s;
 }
 
-.create_any_righticon{
+.get_started::after{
+  font-family: "Font Awesome 5 Free"; 
+  font-weight: 900; 
+  content: "\f054";
   font-size: 17px;
   margin-left: 5px;
 }
+
+/* .create_any_righticon{
+  font-size: 17px;
+  margin-left: 5px;
+} */
 
 /* Create anything section ends here */
 /* Design freedom section starts here */
@@ -440,6 +485,10 @@ header h2 span{
   font-size: 17px;
   line-height: 1.5;
   margin-top: 35px;
+}
+
+.design_freedom p::first-letter{
+  text-transform: uppercase;
 }
 
 /* Design freedom section ends here */
@@ -544,18 +593,26 @@ header h2 span{
   border-bottom: 2px solid black;
 }
 
+.all_features h6 a::after{
+  font-family: "Font Awesome 5 Free"; 
+  font-weight: 900; 
+  content: "\f054";
+  font-size: 32px;
+  margin-left: 10px;
+}
+
 .all_features h6:first-child{
   text-align: center;
   margin: 120px 0 150px 0;
 }
 
-.all_features h6 span{
+/* .all_features h6 span{
   display: inline-block;
   margin: 0 -8px 0 5px;
   position: relative;
   bottom: 3px;
   font-size: 20px;
-}
+} */
 
 .all_features_heading{
   font-size: 44px;
@@ -569,8 +626,8 @@ header h2 span{
   text-transform: lowercase;
   font-size: 40px;
   font-weight: 700;
-  position: static;
-  margin: 0;
+  /* position: static;
+  margin: 0; */
 }
 
 .all_features_para{
@@ -581,7 +638,7 @@ header h2 span{
   margin-top: 25px;
 }
 
-.all_features_buttton{
+/* .all_features_buttton{
   font-size: 21px;
   color: black;
   text-transform: capitalize;
@@ -590,12 +647,17 @@ header h2 span{
   padding-bottom: 5px;
   margin-top: 50px;
   display: inline-block;
+} */
+
+.all_features .wrapper{
+  position: relative;
 }
 
 .all_features figure{
   float: right;
-  position: relative;
-  bottom: 385px;
+  position: absolute;
+  bottom: 580px;
+  right: 0;
 }
 
 .all_f_margin{
@@ -647,7 +709,7 @@ header h2 span{
   flex-basis: 40%;
 }
 
-.how_section_right span{
+.how_section_right h4{
   font-size: 24px;
   font-weight: 1000;
   line-height: 1.2;
@@ -665,6 +727,7 @@ header h2 span{
 
 footer{
   margin-top: 100px;
+  padding-bottom: 200px;
 }
 
 footer nav{
