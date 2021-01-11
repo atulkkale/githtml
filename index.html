@@ -13,11 +13,10 @@
   <!-- Keywords to help with SEO go here. Note: Usage of lang tag.  -->
   <meta name="keywords" lang="en" content="wix,website,wixwebsite,wixonline,makewebsite">
   
-  <!-- View-port Basics: http://mzl.la/VYREaP -->
   <!-- This meta tag is used for mobile device to display the page without any zooming,
        so how much the device is able to fit on the screen is what's shown initially. 
        Remove comments from this tag, when you want to apply media queries to the website. -->
-  <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
   <!-- To adhear no-cache for Chrome -->
   <meta http-equiv="cache-control" content="no-store, no-cache, must-revalidate" />
@@ -34,46 +33,56 @@
 
 <body>
 
+  <!-- Header section starts here -->
   <header>
     <div class="wrapper">
-      <h1><a href="#fixme"><img src="assets/images/logo.png" alt="Wix"></a></h1>
-      <nav>
-        <ul>
-          <li>features</li>
-          <li>explore</li>
-          <li>subscriptions</li>
-          <li>templates</li>
-          <li>support</li>
-        </ul>
-      </nav>
-      <span></span><a href="#fixme">sign in</a>
-      <h2>create the website you want</h2>
-      <a href="#fixme">get started</a>
+      <div class="menu">
+        <h1><a href="#fixme"><img src="assets/images/logo.png" alt="Wix"></a></h1>
+        <nav>
+          <ul></a>
+            <li><a href="#fixme">features</a></li>
+            <li><a href="#fixme">explore</a></li>
+            <li><a href="#fixme">subscriptions</a><span class="white_down down"></span></li>
+            <li><a href="#fixme">templates</a></li>
+            <li><a href="#fixme">support</a></li>
+          </ul>
+        </nav>
+        <div class="sign_up">
+          <a href="#fixme"><span class="white_earth glob"></a></span><a href="#fixme">sign in</a>
+        </div>
+      </div>
+      <h2>create <span>the</span> website you want</h2>
+      <a href="#fixme" class="banner_btn">get started</a>
     </div>
   </header>
 
   <main>
-    <section>
+
+    <!-- Create anything section starts here -->
+    <section class="create_any">
       <div class="wrapper">
-        <h3>the freedom to create anything</h3>
-        <p>We believe anything is possible with the right website builder. Whether you're about to create a website for the first time or you're a long time pro, we've got you covered. You have two ways to start: Get a free website designed for you with Wix Artificial Design Intelligence or get total design freedom with the Wix Editor. You can always add advanced functionality to your website with Wix Code. It's time to get your professional website.</p>
-        <a href="#fixme">get started</a>
+        <h3>the freedom <span>to</span> create anything</h3>
+        <div class="create_any_right">
+          <p>We believe anything is possible with the right website builder. Whether you're about to create a website for the first time or you're a long time pro, we've got you covered. You have two ways to start: Get a free website designed for you with Wix Artificial Design Intelligence or get total design freedom with the Wix Editor. You can always add advanced functionality to your website with Wix Code. It's time to get your professional website.</p>
+          <a href="#fixme" class="get_started">get started </a><span class="create_any_righticon right"></span>
+        </div>
       </div>
     </section>
 
-    <section>
+    <!-- Design freedom section starts here -->
+    <section class="design_freedom_alpha">
       <div class="wrapper">
-        <div>
+        <div class="design_freedom">
           <div>
             <h4><span>wix editor</span> total design freedom</h4>
             <p>Start with a blank slate or choose from over 500 designer-made templates. With the world's most innovative drag and drop website builder, you can customize anything you want. Create beautiful websites with video backgrounds, parallax, animation, and more--all without worrying about code. With the Wix Editor, you can design the most stunning websites, all on your own.</p>
-            <a href="#fixme">get started <span></span></a>
+            <a href="#fixme" class="get_started">get started</a> <span class="create_any_righticon right"></span>
           </div>
           <figure>
             <img src="assets/images/wix_editor1.png" alt="Freedom">
           </figure>
         </div>
-        <div>
+        <div class="design_freedom">
           <figure>
             <img src="assets/images/wix_editor2.png" alt="Add section">
           </figure>
@@ -81,26 +90,27 @@
             <img src="assets/images/wix_editor.png" alt="Codeing">
           </figure>
         </div>
-        <div>
+        <div class="design_freedom">
           <div>
             <h4><span>wix ADI</span> get online fast</h4>
             <p>You'll love how fast you can get online--and look amazing! Wix Artificial Design Intelligence (ADI) will instantly build a website personalized just for you--complete with professional text and images. All you have to do is answer a few simple questions about who you are and what you do. When you're ready, go live in a click.</p>
-            <a href="#fixme">get started <span></span></a>
+            <a href="#fixme" class="get_started">get started</a>  <span class="create_any_righticon right"></span>
           </div>
           <div>
             <h4><span>wix code</span> creation without limits</h4>
             <p>Get advanced capabilities with all the design features of the Wix Editor. Build custom web applications and robust websites. It's serverless, hassle-free coding. You can set up your own database collections, build content rich websites, add custom forms and change site behavior with our APIs. Plus, anything you create is SEO compatible. With our website builder, you can create anything you want.</p>
-            <a href="#fixme">get started <span></span></a>
+            <a href="#fixme" class="get_started">get started</a>  <span class="create_any_righticon right"></span>
           </div>
         </div>
       </div>
     </section>
 
-    <section>
+    <!-- Powerful features section starts here -->
+    <section class="powerful_features">
       <div class="wrapper">
-        <h5>powerful features <span>for</span> your website</h5>
-        <div>
-          <div>
+        <h5><span>powerful features</span> <span>for</span> your website</h5>
+        <div class="p_f_wrap">
+          <div class="p_f_div">
             <figure>
               <img src="assets/images/features_sec1.png" alt="Summer style guide">
               <figcaption><span>beautiful blog</span> Create a beautiful blog, grow your community and share your ideas with the world.</figcaption> 
@@ -114,7 +124,7 @@
               <figcaption><span>custom domains</span> Get a personalized domain name that matches your brand and business.</figcaption>
             </figure>
           </div>
-          <div>
+          <div class="p_f_div">
             <figure>
               <img src="assets/images/features_sec2.png" alt="Media galleries">
               <figcaption><span>media galleries</span> Display your high-quality images, videos and text in a fully-customizable gallery.</figcaption>
@@ -132,29 +142,31 @@
       </div>
     </section>
 
-    <section>
+    <!-- All features section starts here -->
+    <section class="all_features">
       <div class="wrapper">
-        <h6><a href="#fixme">see all features <span></span><span></span></a></h6>
-        <h6>manage and grow your business online</h6>
-        <p>NO matter who you are--photographer, restaurant owner, musician, hotelier and more, you can manage your website and business all in one place. With Wix, the possibilities are relly endless! We offer 200 Apps and services to make it easier for you to grow your business or brand online. Easily send beautiful emails, start your own blog, get booked online, open your own online store and more.</p>
-        <a href="#fixme">get started <span></span></a>
+        <h6><a href="#fixme">see all features</a><span class="right"></span><span class="right"></span></h6>
+        <h6 class="all_features_heading">manage <span>and</span> grow your business online</h6>
+        <p class="all_features_para">No matter who you are--photographer, restaurant owner, musician, hotelier and more, you can manage your website and business all in one place. With Wix, the possibilities are really endless! We offer 200 Apps and services to make it easier for you to grow your business or brand online. Easily send beautiful emails, start your own blog, get booked online, open your own online store and more.</p>
+        <a href="#fixme" class="get_started">get started </a><span class="create_any_righticon right"></span>
         <figure>
           <img src="assets/images/all_features.png" alt="Calm man">
         </figure>
-        <h6>what makes our website builder the best choice for you?</h6>
-        <p>It's simple. With Wix, you get the freedom to create a free website that looks exactly the way you want. It doesn't matter how experienced you are. Prefer to have a website built for you? Try Wix ADI. Need advanced code capabilites? You've got that too. With Wix, you get the whole package, including a website builder, reliable web hosting, top security, and the best SEO for your website. And that's not all, our dedicated Support Team is always here for you.</p>
-        <p>Over 125 million people worldwide choose Wix to create a website and manage their business online. Still not convinced? Try our free website builder yourself.</p>
-        <a href="#fixme">get started <span></span></a>
+        <h6 class="all_features_heading all_f_margin">what makes our website builder the best choice for you?</h6>
+        <p class="all_features_para">It's simple. With Wix, you get the freedom to create a free website that looks exactly the way you want. It doesn't matter how experienced you are. Prefer to have a website built for you? Try Wix ADI. Need advanced code capabilites? You've got that too. With Wix, you get the whole package, including a website builder, reliable web hosting, top security, and the best SEO for your website. And that's not all, our dedicated Support Team is always here for you.</p>
+        <p class="all_features_para">Over 125 million people worldwide choose Wix to create a website and manage their business online. Still not convinced? Try our free website builder yourself.</p>
+        <a href="#fixme" class="get_started">get started </a><span class="create_any_righticon right"></span>
       </div>
     </section>
 
-    <section>
+    <!-- How section starts here -->
+    <section class="how_section">
       <div class="wrapper">
-        <div>
+        <div class="how_section_left">
           <h6>how <span>to</span> create <span>a</span> free website</h6>
-          <a href="#fixme">get started</a><a href="#fixme">learn more</a>
+          <a href="#fixme" class="get_started">get started</a><span class="right"></span><a href="#fixme" class="get_started how_section_btn">learn more</a><span class="right"></span>
         </div>
-        <div>
+        <div class="how_section_right">
           <span>Create a website with Wix's free website builder in just 5 easy steps:</span>
           <ol>
             <li>Sign up for a free Wix account. Choose what king of website you want to create.</li>
@@ -168,77 +180,78 @@
     </section>
   </main>
 
+  <!-- Footer section starts here -->
   <footer>
     <div class="wrapper">
       <nav>
         <ul>
           <li>product</li>
-          <li>templates</li>
-          <li>explore</li>
-          <li>features</li>
-          <li>website builder</li>
-          <li>wix code</li>
-          <li>my sites</li>
-          <li>premium plans</li>
-          <li>wix <span>seo</span></li>
-          <li>logo maker</li>
-          <li>online store</li>
-          <li>start <span>a</span> blog</li>
-          <li>app market</li>
-          <li>domains</li>
-          <li>wix answers</li>
-          <li>developers</li>
-          <li>email marketing</li>
+          <li><a href="#fixme">templates</a></li>
+          <li><a href="#fixme">explore</a></li>
+          <li><a href="#fixme">features</a></li>
+          <li><a href="#fixme">website builder</a></li>
+          <li><a href="#fixme">wix code</a></li>
+          <li><a href="#fixme">my sites</a></li>
+          <li><a href="#fixme">premium plans</a></li>
+          <li><a href="#fixme">wix <span>seo</span></a></li>
+          <li><a href="#fixme">logo maker</a></li>
+          <li><a href="#fixme">online store</a></li>
+          <li><a href="#fixme">start <span>a</span> blog</a></li>
+          <li><a href="#fixme">app market</a></li>
+          <li><a href="#fixme">domains</a></li>
+          <li><a href="#fixme">wix answers</a></li>
+          <li><a href="#fixme">developers</a></li>
+          <li><a href="#fixme">email marketing</a></li>
         </ul>
         <ul>
           <li>company</li>
-          <li>about wix</li>
-          <li>investor relations</li>
-          <li>jobs</li>
-          <li>design assets</li>
-          <li>terms <span>of use</span></li>
-          <li>app market terms</li>
-          <li>privacy policy</li>
-          <li>abuse</li>
-          <li>affiliates</li>
-          <li>updates & releases</li>
-          <li>contact us</li>
-          <li>patent notice</li>
-          <li>sitemap</li>
+          <li><a href="#fixme">about wix</a></li>
+          <li><a href="#fixme">investor relations</a></li>
+          <li><a href="#fixme">jobs</a></li>
+          <li><a href="#fixme">design assets</a></li>
+          <li><a href="#fixme">terms <span>of use</span></a></li>
+          <li><a href="#fixme">app market terms</a></li>
+          <li><a href="#fixme">privacy policy</a></li>
+          <li><a href="#fixme">abuse</a></li>
+          <li><a href="#fixme">affiliates</a></li>
+          <li><a href="#fixme">updates & releases</a></li>
+          <li><a href="#fixme">contact us</a></li>
+          <li><a href="#fixme">patent notice</a></li>
+          <li><a href="#fixme">sitemap</a></li>
         </ul>
         <ul>
           <li>community</li>
-          <li>wix blog</li>
-          <li>wix stories</li>
-          <li>wix arena</li>
-          <li>wix meetups</li>
-          <li>wix ambassadors</li>
-          <li>facebook</li>
-          <li>twitter</li>
-          <li>google+</li>
-          <li>pinterest</li>
-          <li>youTube</li>
-          <li>linkedIn</li>
+          <li><a href="#fixme">wix blog</a></li>
+          <li><a href="#fixme">wix stories</a></li>
+          <li><a href="#fixme">wix arena</a></li>
+          <li><a href="#fixme">wix meetups</a></li>
+          <li><a href="#fixme">wix ambassadors</a></li>
+          <li><a href="#fixme">facebook</a></li>
+          <li><a href="#fixme">twitter</a></li>
+          <li><a href="#fixme">google+</a></li>
+          <li><a href="#fixme">pinterest</a></li>
+          <li><a href="#fixme">youTube</a></li>
+          <li><a href="#fixme">linkedIn</a></li>
         </ul>
         <ul>
           <li>support</li>
-          <li>support center</li>
+          <li><a href="#fixme">support center</a></li>
         </ul>
         <ul>
           <li><a href="#fixme"><img src="assets/images/footer.png" alt="Wix.com"></a></li>
           <li>
             <p>Wix.com is a leading cloud-based development platform with millions of users worldwide. We make it easy for everyone to create a beautiful, professional web presence.</p>
             <p>Promote your business, showcase your art, set up an online shop or just test out new ideas. The Wix website builder has everything you need to create a fully personalized, high-quality free website.</p>
-            <span>&#169; 2006-2018 wix.com, inc</span>
+            <span class="footer_coppywrite">&#169; 2006-2018 wix.com, inc</span>
           </li>
           <li>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
+            <a href="#fixme"><span class="foo_icon facebook"></span></a>
+            <a href="#fixme"><span class="foo_icon twitter"></span></a>
+            <a href="#fixme"><span class="foo_icon google_plus"></span></a>
+            <a href="#fixme"><span class="foo_icon youtube"></span></a>
+            <a href="#fixme"><span class="foo_icon pinterest"></span></a>
+            <a href="#fixme"><span class="foo_icon insta"></span></a>
+            <a href="#fixme"><span class="foo_icon linked_in"></span></a>
           </li>
         </ul>
       </nav>

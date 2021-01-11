@@ -156,6 +156,703 @@ sub { bottom: -.25em; }
 
 .wrapper {
   max-width: 1350px;
-  width: 61.5%;
+  width: 96%;
   margin: 0 auto;
 }
+
+body{
+  font-family: Helvetica, sans-serif;
+}
+
+/* font awesome style elements */
+
+.down::before{
+  font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f078";
+}
+
+.glob::before{
+  font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f0ac";
+}
+
+.right::before{
+  font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f054";
+}
+
+.facebook::before{
+  font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f39e";
+}
+
+.twitter::before{
+  font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f099";
+}
+
+.google_plus::before{
+  font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f0d5";
+}
+
+.youtube::before{
+  font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f167";
+}
+
+.pinterest::before{
+  font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f231";
+}
+
+.insta::before{
+  font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f16d";
+}
+
+.linked_in::before{
+  font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f0e1";
+}
+
+/* Header section starts here */
+
+header .wrapper{
+  background-image: url("../images/background.jpeg");
+  background-size: contain; 
+  height: 670px;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.menu img{
+  height: 35px;
+  width: 85px;
+}
+
+.menu nav ul{
+  display: flex;
+  list-style: none;
+}
+
+.menu nav li{
+  margin-right: 20px;
+}
+
+.white_down{
+  font-size: 13px; 
+  margin-left: 5px; 
+  color: #fff;
+}
+
+.menu nav li a,.sign_up a{
+  text-decoration: none;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.menu nav li a:hover{
+  color: #333;
+  transition: .5s;
+}
+
+.white_earth{
+  font-size: 20px;
+  color: #fff;
+}
+
+.white_earth:hover{
+  color: #333;
+  transition: .5s;
+}
+
+.sign_up a:nth-child(2){
+  text-decoration: none;
+  color: #333;
+  text-transform: capitalize;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 10px 25px;
+  margin-left: 20px;
+}
+
+.sign_up a:nth-child(2):hover{
+  background-color: #333;
+  color: #ffcf3f;
+  transition: .5s;
+}
+
+header h2{
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 65px;
+}
+
+header h2 span{
+  text-transform: lowercase;
+}
+
+.banner_btn{
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  text-transform: capitalize;
+  background-color: #fff;
+  padding: 15px 45px;
+  border-radius: 40px;
+  width: 130px;
+  margin: 0 auto;
+  color: #ffcf3f;
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-top: 50px;
+}
+
+.banner_btn:hover{
+  background-color: #333;
+  transition: .5s;
+}
+
+/* Header section ends here */
+/* Create anything section starts here */
+
+.create_any .wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.create_any h3{
+  font-size: 75px;
+  font-weight: 700;
+  text-transform: capitalize;
+  flex-basis: 50%;
+  padding: 140px 66px;
+}
+
+.create_any span{
+  text-transform: lowercase;
+}
+
+.create_any p{
+  font-size: 21px;
+  line-height: 1.7;
+  font-weight: 100;
+}
+
+.create_any_right{
+  flex-basis: 50%;
+  padding: 155px 50px 165px 10px;
+}
+
+.get_started{
+  font-size: 21px;
+  color: black;
+  text-transform: capitalize;
+  text-decoration: none;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+  margin-top: 50px;
+  display: inline-block;
+}
+
+.get_started:hover{
+  color: #333;
+  transition: .5s;
+}
+
+.create_any_righticon{
+  font-size: 17px;
+  margin-left: 5px;
+}
+
+/* Create anything section ends here */
+/* Design freedom section starts here */
+
+.design_freedom{
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid black;
+}
+
+.design_freedom:nth-child(1){
+  border-bottom: none;
+}
+
+.design_freedom:first-child img{
+  width: 647px;
+}
+
+.design_freedom:nth-child(2){
+  border-bottom: none;
+}
+
+.design_freedom:nth-child(2) figure:first-child img{
+  border-right: 1px solid black;
+}
+
+.design_freedom:nth-child(2) figure:nth-child(2) img{
+  border-left: 1px solid black;
+  width: 646px;
+}
+
+.design_freedom:nth-child(2){
+  justify-content: center;
+}
+
+.design_freedom:nth-child(2) img{
+  height: auto;
+  width: 645px;
+}
+
+.design_freedom:nth-child(3){
+  border-top: none;
+}
+
+.design_freedom:nth-child(3) div{
+  padding: 80px 100px;
+}
+
+.design_freedom:nth-child(3) div:nth-child(1){
+  border-right: 1px solid black;
+  flex-basis: 50%;
+}
+
+.design_freedom:nth-child(3) div:nth-child(2){
+  border-left: 1px solid black;
+  flex-basis: 50.2%;
+}
+
+.design_freedom div{
+  padding: 110px 100px;
+}
+
+.design_freedom h4{
+  font-size: 42px;
+  text-transform: capitalize;
+}
+
+.design_freedom h4 span{
+  font-weight: 700;
+  display: block;
+}
+
+.design_freedom p{
+  font-size: 17px;
+  line-height: 1.5;
+  margin-top: 35px;
+}
+
+/* Design freedom section ends here */
+/* Powerful features section starts here */
+
+.powerful_features h5{
+  font-size: 75px;
+  font-weight: 700;
+  text-transform: capitalize;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.powerful_features h5 span:first-child{
+  display: block;
+}
+
+.powerful_features h5 span:nth-child(2){
+  text-transform: lowercase;
+}
+
+.p_f_wrap{
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-top: 90px;
+}
+
+.p_f_div:first-child figure:nth-child(2){
+  margin-top: 70px;
+}
+
+.p_f_div:first-child figure:nth-child(2) figcaption{
+  padding: 0 135px 0 210px;
+}
+
+.p_f_div:first-child figure:nth-child(3){
+  margin-top: 180px;
+}
+
+.p_f_div:first-child figure:nth-child(3) figcaption{
+  margin-top: 30px;
+  padding-left: 170px;
+}
+
+.p_f_div:nth-child(2) figure:first-child{
+  margin-top: 50px;
+}
+
+.p_f_div:nth-child(2) figure:first-child img{
+  margin-bottom: 30px;
+}
+
+.p_f_div:nth-child(2) figure:nth-child(2){
+  text-align: left;
+  margin-top: 100px;
+}
+
+.p_f_div:nth-child(2) figure:nth-child(2) figcaption{
+  padding: 0 310px 0  0;
+  margin-top: 20px;
+}
+
+.p_f_div:nth-child(2) figure:nth-child(3){
+  text-align: center;
+  margin-top: 120px;
+}
+
+.p_f_div:nth-child(2) figure:nth-child(3) figcaption{
+  padding: 0 280px 0  78px;
+  margin-top: 20px;
+}
+
+.p_f_div figcaption{
+  text-align: left;
+  padding-left: 132px;
+  padding-right: 190px;
+  line-height: 1.5;
+}
+
+.p_f_div figcaption span{
+  font-size: 25px;
+  font-weight: 700;
+  display: block;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+}
+
+/* Powerful features section ends here */
+/* All features section starts here */
+
+.all_features{
+  padding-left: 105px;
+}
+
+.all_features h6 a{
+  text-decoration: none;
+  color: black;
+  font-size: 44px;
+  font-weight: 700;
+  text-transform: capitalize;
+  border-bottom: 2px solid black;
+}
+
+.all_features h6:first-child{
+  text-align: center;
+  margin: 120px 0 150px 0;
+}
+
+.all_features h6 span{
+  display: inline-block;
+  margin: 0 -8px 0 5px;
+  position: relative;
+  bottom: 3px;
+  font-size: 20px;
+}
+
+.all_features_heading{
+  font-size: 44px;
+  font-weight: 700;
+  text-transform: capitalize;
+  width: 465px;
+  line-height: 1.2;
+}
+
+.all_features .wrapper .all_features_heading span{
+  text-transform: lowercase;
+  font-size: 40px;
+  font-weight: 700;
+  position: static;
+  margin: 0;
+}
+
+.all_features_para{
+  font-size: 21px;
+  line-height: 1.7;
+  font-weight: 100;
+  width: 610px;
+  margin-top: 25px;
+}
+
+.all_features_buttton{
+  font-size: 21px;
+  color: black;
+  text-transform: capitalize;
+  text-decoration: none;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+  margin-top: 50px;
+  display: inline-block;
+}
+
+.all_features figure{
+  float: right;
+  position: relative;
+  bottom: 385px;
+}
+
+.all_f_margin{
+  margin-top: 100px;
+}
+/* All features section ends here */
+/* How section starts here */
+
+.how_section{
+  margin-top: 120px;
+}
+
+.how_section div{
+  background-color: #526dd8;
+  color: #fff;
+}
+
+.how_section .wrapper{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 100px 0;
+}
+
+.how_section h6{
+  font-size: 105px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.how_section h6 span{
+  text-transform: lowercase;
+}
+
+.how_section_left a{
+  color: #fff;
+  font-weight: 700;
+}
+
+.how_section_btn{
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.how_section_left{
+  flex-basis: 40%;
+}
+
+.how_section_right{
+  flex-basis: 40%;
+}
+
+.how_section_right span{
+  font-size: 24px;
+  font-weight: 1000;
+  line-height: 1.2;
+  display: block;
+}
+
+.how_section_right ol li{
+  font-size: 20px;
+  line-height: 1.5;
+  margin-top: 40px;
+}
+
+/* How section ends here */
+/* Footer section starts here */
+
+footer{
+  margin-top: 100px;
+}
+
+footer nav{
+  display: flex;
+  justify-content: center;
+}
+
+footer nav ul{
+  list-style: none;
+  flex-basis: 16%;
+}
+
+footer ul li:first-child{
+  color: #333;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+footer ul li{
+  text-transform: capitalize;
+  margin-top:10px;
+}
+
+footer ul li a{
+  text-decoration: none;
+  color: rgb(78, 78, 78);
+}
+
+footer ul li a:hover{
+  color: #333;
+}
+
+footer ul li span{
+  text-transform: lowercase;
+}
+
+footer ul li img{
+  height: 20px;
+  width: 94px;
+}
+
+footer ul li p,.footer_coppywrite{
+  color: rgb(78, 78, 78);
+  font-size: 15px;
+  line-height: 1.5;
+  text-transform: none;
+  margin-bottom: 20px;
+}
+
+.foo_icon{
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.foo_icon a{
+  text-decoration: none;
+  color: rgb(78, 78, 78);
+}
+/* Footer section ends here */
+/* Responsive stylesheet starts here */
+
+@media only screen and (max-width: 768px){
+ /* Header section starts here */
+
+.menu,.menu nav ul,.create_any .wrapper,.design_freedom,.p_f_wrap,.how_section .wrapper,footer nav{
+  flex-direction: column;
+}
+
+.menu{
+  padding: 20px 20px 0 20px;
+}
+
+header .wrapper{
+  height: auto;
+  padding-bottom: 20px;
+  background-size: cover;
+}
+
+header h2{
+  padding: 0 1px;
+}
+
+.menu nav ul{
+  margin: 20px 0;
+}
+
+/* Header section ends here */
+/* Create anything section starts here */
+
+.create_any h3{
+  padding: 100px 10px 0 10px;
+}
+
+.create_any_right{
+  padding: 50px 10px;
+}
+
+/* Create anything section ends here */
+/* Design freedom section starts here */
+
+.design_freedom div{
+  padding: 100px 20px;
+}
+
+.design_freedom_alpha .wrapper .design_freedom figure img{
+  width: 100%;
+}
+
+.p_f_div:first-child figure:nth-child(3){
+  margin-top: 100px;
+}
+
+.p_f_div:nth-child(2) figure:first-child img{
+  margin-top: 60px;
+}
+
+.design_freedom:nth-child(3) div{
+  padding: 100px 20px 20px 20px;
+}
+
+/* Design freedom secion ends here */
+/* Powerful features section starts here */
+
+.p_f_div figure img{
+  width: 100%;
+}
+
+.p_f_div figcaption,.p_f_div:first-child figure:nth-child(2) figcaption,.p_f_div:first-child figure:nth-child(3) figcaption,.p_f_div:nth-child(2) figure:nth-child(2) figcaption,.p_f_div:nth-child(2) figure:nth-child(3) figcaption{
+  padding: 0;
+}
+
+/* Powerful features section ends here */
+/* All features section starts here */
+
+.all_features{
+  padding: 0;
+}
+.all_features h6 a{
+  font-size: 40px;
+}
+
+.all_features figure{
+  float: none;
+  position: static;
+}
+
+.all_features figure img{
+  width: 100%;
+  margin-top: 30px;
+}
+
+.all_features_heading,.all_features_para{
+  width: 100%;
+}
+
+/* All features section ends here */
+/* How section starts here */
+
+.how_section h6{
+  font-size: 85px;
+  padding: 0 5px;
+}
+
+.how_section_left a{
+  margin-left: 10px;
+}
+
+.how_section_right{
+  padding: 0 0 0 35px;
+}
+
+.how_section_right span{
+  margin: 50px 20px 0 0;
+}
+
+/* How section ends here */
+/* Footer section starts here */
+
+footer nav ul{
+  padding-left: 10px;
+}
+
+footer ul li:first-child{
+  margin-top: 30px;
+}
+
+/* Footer section ends here */
+}
+
+/* Responsive stylesheet ends here */
